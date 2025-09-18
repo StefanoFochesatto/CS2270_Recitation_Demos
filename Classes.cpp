@@ -23,13 +23,11 @@ double Circle::calculateArea() {
 }
 
 int main(){
-    // --- 1. Constructing a Circle Object ---
-    // We create an instance of the Circle class called 'my_circle'.
+   // We create an instance of the Circle class called 'my_circle'.
     // The value 5.0 is passed to the constructor.
     Circle my_circle(5.0);
     std::cout << "Circle object created with radius 5.0" << std::endl;
 
-    // --- 2. Calling Member Functions (Methods) ---
     // We use the dot (.) operator to call a function ON the object.
 
     // Call calculateArea() on my_circle and store the result.
