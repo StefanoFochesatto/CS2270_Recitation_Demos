@@ -16,16 +16,12 @@ void PassByPointer(int* ptr){
     cout << "dereference value of ptr in PassByPointer: " << *ptr << endl;
     cout << "value of ptr in PassByPointer: " << ptr << endl;
     cout << "value of ptr in PassByPointer: " << &ptr << endl;
-
-
-
 }
 
 void PassPointerByReference(int* &ptr){
     cout << "dereference value of ptr in PassPointerByReference: " << *ptr << endl;
     cout << "address of ptr in PassPointerByReference: " << ptr << endl;
     cout << "value of ptr in PassPointerByReference: " << &ptr << endl;
-
 
 }
 
