@@ -23,7 +23,7 @@ int main(int argc, char* argv[]) {
     cin >> num;
     foo(num);
 
-    //delete[] arr;
+    delete[] arr;
 
     return 0;
 }  
